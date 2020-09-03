@@ -1,0 +1,8 @@
+$sum = 0;
+$cur = 1;
+do {
+  if ($cur % 2 === 1) {
+    $sum += $cur;
+  }
+} while (++$cur < 10);
+echo $sum; 
